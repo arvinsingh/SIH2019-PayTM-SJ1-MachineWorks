@@ -24,10 +24,10 @@ Clone the github repositor or type the command **git clone https://github.com/ar
 
 ## Executing or running the program
 1) React Analysis Panel
-- Install dependencies
+- Install dependencies:
 npm install
 
-- Serve with hot reload at localhost:3000
+- Serve with hot reload at localhost:3000:
 npm start
 
 2) Create database PostgreSQL
@@ -37,10 +37,10 @@ password=robomx
 
 3) Celery Job Scheduler to fetch Firebase data
 
-open terminal 1: 
+- open terminal 1: 
 	celery -A configurations beat --loglevel=info
 
-open terminal 2: 
+- open terminal 2: 
 	celery -A configurations worker -l info -E
 
 4) Django Web server
