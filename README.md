@@ -16,6 +16,8 @@ Problem Statement: SJ1 - Reduce the amount of push notifications require for e-c
 ## Description
 Developer would have to build a solution using Artificial Intelligence or some other mechanism to reduce the amount of push notifications sent by e-commerce apps. Currently push notifications are generally sent based on a fixed schedule or some trigger in most apps. This creates multiple notifications every week and irritates the user. The intent should be to only send notifications when the users intent is there to purchase a particular product. Sending push notifications or emails without any user intent to buy that category of product creates frustration to the user. So only when user has intention to buy something the notifications or emails should. The developer has to use a technical method to find that intent using big data and then send notifications or emails according to that method.
 
+**PRESENTATION IN THE RESOURCES FOLDER**
+
 ## Organization
 <img src="resources/layout.png">
 
